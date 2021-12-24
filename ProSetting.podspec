@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ProSetting"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.2"
   spec.summary      = "集团专用"
   spec.homepage     = "https://github.com/cochat/ProSetting"
   spec.license      = "MIT"
