@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "git@github.com:cochat/ProSetting.git", :tag => "#{spec.version}" }
   spec.source_files  = "TCSetting/TCSetting/*.{h,m}"
   spec.requires_arc = true
-  spec.dependency "Masonry", :git => 'https://github.com/SnapKit/Masonry.git', :commit => '8bd77ea'
+  spec.dependency "Masonry", {:git => 'https://github.com/SnapKit/Masonry.git', :commit => '8bd77ea'}
   spec.dependency "TCTools", "~> 0.1.16"
  
 end
