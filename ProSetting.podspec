@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "jinshuaiLiu" => "154377093@qq.com" }
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "git@github.com:cochat/ProSetting.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cochat/ProSetting.git", :tag => "#{spec.version}" }
   spec.source_files  = "TCSetting/TCSetting/*.{h,m}"
   spec.requires_arc = true
   spec.dependency "Masonry", "~>0"
