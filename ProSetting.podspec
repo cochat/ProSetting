@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ProSetting"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "集团专用"
   spec.homepage     = "https://github.com/cochat/ProSetting"
   spec.license      = "MIT"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/cochat/ProSetting.git", :tag => "#{spec.version}" }
   spec.source_files  = "TCSetting/TCSetting/*.{h,m}"
   spec.requires_arc = true
-  spec.dependency "Masonry", "~>0"
+  spec.dependency "Masonry", "~> 1.1.0"
   spec.dependency "TCTools", "~> 0.1.16"
  
 end
