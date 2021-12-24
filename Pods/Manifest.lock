@@ -1,0 +1,29 @@
+PODS:
+  - Masonry (1.1.0)
+  - RHTools (0.1.16.1)
+
+DEPENDENCIES:
+  - Masonry (from `https://github.com/SnapKit/Masonry.git`, commit `8bd77ea`)
+  - RHTools
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RHTools
+
+EXTERNAL SOURCES:
+  Masonry:
+    :commit: 8bd77ea
+    :git: https://github.com/SnapKit/Masonry.git
+
+CHECKOUT OPTIONS:
+  Masonry:
+    :commit: 8bd77ea
+    :git: https://github.com/SnapKit/Masonry.git
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RHTools: 196e6bf21e76cb16ed16c764f3b07f28649ae0dc
+
+PODFILE CHECKSUM: f574848cd06e4afe4273e4acd6efb6483889392f
+
+COCOAPODS: 1.8.4
