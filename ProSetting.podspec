@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/cochat/ProSetting"
   spec.license      = "MIT"
   spec.author       = { "jinshuaiLiu" => "154377093@qq.com" }
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "7.0"
   spec.source       = { :git => "https://github.com/cochat/ProSetting.git", :tag => "#{spec.version}" }
   spec.source_files  = "TCSetting/TCSetting/*.{h,m}"
   spec.requires_arc = true
